@@ -1,0 +1,25 @@
+## Interface: 30300
+## Title: XPerl Compact |cffeda55fSirus|r by |cFFFF8080Ulcore@|r
+## Version: 1.0.0
+## Title-ruRU: XPerl Compact |cffeda55fSirus|r by |cFFFF8080Ulcore@|r
+## Author: Ulcore@
+## Title-zhCN: X-Perl 核心
+## Title-zhTW: X-Perl 主要核心
+## Notes: Sirus Compact Edition maintained by Ulcore@; original X-Perl by Zek. Forum: https://forum.sirus.su/resources/x-perl-sirus-compact-edition.654/
+## Notes-ruRU: Компактная версия для Sirus: Ulcore@. Оригинальный X-Perl: Zek. Тема проекта: https://forum.sirus.su/resources/x-perl-sirus-compact-edition.654/
+## Notes-deDE: Ersetzt die normalen Einheiten, Gruppe, Ziel, Begleiterframe und fügt Ziel des Zieles hinzu.
+## Notes-esES: Reemplazo para los marcos de unidades, con nuevo aspecto para jugador, mascota, grupo, objetivo, objetivo del objetivo, y banda
+## Notes-zhCN: 玩家头像增强插件，附带团队助手功能
+## Notes-zhTW: 提供玩家、隊伍、目標、寵物、目標的目標頭像增強以及團隊框架顯示、團隊助手功能
+## X-eMail: zeksie@gmail.com
+## X-Donate: PayPal:zeksie@gmail.com
+## X-Category: Interface Enhancements
+## X-License: GNU GPL v3, 29 June 2007
+## X-Website: https://forum.sirus.su/resources/x-perl-sirus-compact-edition.654/
+## X-Sirus-Category: 16
+## X-Sirus-Update: https://github.com/ulcoreulstu-street/XPerl-Compact/tree/main/XPerlCompact
+## OptionalDeps: LibHealComm-4.0, LibHealComm-3.0
+## SavedVariables: XPerlConfig, XPerlConfig_Global, XPerlConfigNew, XPerlConfigSavePerCharacter
+libs\embeds.xml
+XPerl_Globals.xml
+XPerl.xml
