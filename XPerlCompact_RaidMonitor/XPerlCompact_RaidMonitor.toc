@@ -1,0 +1,17 @@
+## Interface: 30300
+## Version: 1.0.0
+## Title: XPerl Compact |cffeda55fSirus|r by |cFFFF8080Ulcore@|r
+## Title-ruRU: XPerl Compact |cffeda55fSirus|r by |cFFFF8080Ulcore@|r
+## Title-zhCN: X-Perl |cffeda55f团队监控|r
+## Title-zhTW: X-Perl |cffeda55f團隊生命法力監視|r 由 |cFFFF8080Ulcore@|r 開發
+## Notes: Provides a casting monitor and mana status window.
+## Notes-ruRU: Обеспечивает окном мониторинга применений и маны.
+## Notes-zhTW: 提供施法進度以及法力狀態治療監控視窗.
+## Author: Ulcore@
+## X-License: GNU GPL v3, 29 June 2007
+## X-Sirus-Category: 16
+## X-Sirus-Update: https://github.com/ulcoreulstu-street/XPerl-Compact/tree/main/XPerlCompact_RaidMonitor
+## SavedVariablesPerCharacter: XPerlRaidMonConfig
+## RequiredDeps: XPerlCompact
+## DefaultState: Disabled
+XPerl_RaidMonitor.xml

@@ -1,0 +1,16 @@
+## Interface: 30300
+## Version: 1.0.0
+## Title: XPerl Compact |cffeda55fSirus|r by |cFFFF8080Ulcore@|r
+## Title-ruRU: XPerl Compact |cffeda55fSirus|r by |cFFFF8080Ulcore@|r
+## Title-zhCN: X-Perl |cffeda55f教程|r
+## Title-zhTW: X-Perl |cffeda55f新手教學|r 由 |cFFFF8080Ulcore@|r 開發 |cFF40FF40(隨機載入)|r
+## Notes: Give Tutorial tips for new users.
+## Notes-ruRU: Отображает подсказки по настройке фреймов.
+## Notes-zhTW: 提供新使用者簡單的使用教學.
+## Author: Ulcore@
+## X-License: GNU GPL v3, 29 June 2007
+## X-Sirus-Category: 16
+## X-Sirus-Update: https://github.com/ulcoreulstu-street/XPerl-Compact/tree/main/XPerlCompact_Tutorial
+## RequiredDeps: XPerlCompact
+## LoadOnDemand: 1
+XPerl_Tutorial.xml
