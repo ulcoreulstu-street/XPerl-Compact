@@ -1,7 +1,7 @@
 ## Interface: 30300
 ## Version: 1.0.0
-## Title: XPerl Compact |cffeda55fSirus|r by |cFFFF8080Ulcore@|r
-## Title-ruRU: XPerl Compact |cffeda55fSirus|r by |cFFFF8080Ulcore@|r
+## Title: XPerl Compact — Монитор рейда
+## Title-ruRU: XPerl Compact — Монитор рейда
 ## Title-zhCN: X-Perl |cffeda55f团队监控|r
 ## Title-zhTW: X-Perl |cffeda55f團隊生命法力監視|r 由 |cFFFF8080Ulcore@|r 開發
 ## Notes: Provides a casting monitor and mana status window.

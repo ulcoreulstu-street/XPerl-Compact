@@ -58,7 +58,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT"/>
 				</Anchors>
-				<Backdrop bgFile="Interface\Addons\XPerl\Images\XPerl_FrameBack" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+				<Backdrop bgFile="Interface\Addons\XPerlCompact\Images\XPerl_FrameBack" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
 					<EdgeSize>
 						<AbsValue val="16"/>
 					</EdgeSize>
@@ -103,7 +103,7 @@
 						</Texture>
 
 						<!-- 30 Yard Range Icon, re-incarnated... -->
-						<Texture name="$parentrangeIcon" file="Interface\Addons\XPerl\images\XPerl_30Yard" hidden="true">
+						<Texture name="$parentrangeIcon" file="Interface\Addons\XPerlCompact\Images\XPerl_30Yard" hidden="true">
 							<Size>
 								<AbsDimension x="48" y="19"/>
 							</Size>
@@ -339,7 +339,7 @@
 				</Anchors>
 				<Layers>
 					<Layer level="OVERLAY">
-						<Texture name="$parentfocusTarget" file="Interface\Addons\XPerl\images\XPerl_Highlight" alphaMode="ADD" setAllPoints="true" hidden="true">
+						<Texture name="$parentfocusTarget" file="Interface\Addons\XPerlCompact\Images\XPerl_Highlight" alphaMode="ADD" setAllPoints="true" hidden="true">
 							<TexCoords left="0" right="1" top="0.5" bottom="1"/>
 						</Texture>
 					</Layer>
@@ -357,7 +357,7 @@
 				</Anchors>
 				<Layers>
 					<Layer level="BORDER">
-						<Texture name="$parenttex" file="Interface\Addons\XPerl\Images\XPerl_Elite" setAllPoints="true"/>
+						<Texture name="$parenttex" file="Interface\Addons\XPerlCompact\Images\XPerl_Elite" setAllPoints="true"/>
 					</Layer>
 					<Layer level="OVERLAY">
 						<!-- Raid Target Icon -->
@@ -464,7 +464,7 @@
 				</Anchors>
 				<Layers>
 					<Layer level="OVERLAY">
-						<Texture name="$parent_FocusIcon" file="Interface\Addons\XPerl\Images\XPerl_EyeBall"/>
+						<Texture name="$parent_FocusIcon" file="Interface\Addons\XPerlCompact\Images\XPerl_EyeBall"/>
 					</Layer>
 				</Layers>
 			</Frame>

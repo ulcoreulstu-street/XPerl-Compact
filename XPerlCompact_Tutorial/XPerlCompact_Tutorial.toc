@@ -1,7 +1,7 @@
 ## Interface: 30300
 ## Version: 1.0.0
-## Title: XPerl Compact |cffeda55fSirus|r by |cFFFF8080Ulcore@|r
-## Title-ruRU: XPerl Compact |cffeda55fSirus|r by |cFFFF8080Ulcore@|r
+## Title: XPerl Compact — Обучение
+## Title-ruRU: XPerl Compact — Обучение
 ## Title-zhCN: X-Perl |cffeda55f教程|r
 ## Title-zhTW: X-Perl |cffeda55f新手教學|r 由 |cFFFF8080Ulcore@|r 開發 |cFF40FF40(隨機載入)|r
 ## Notes: Give Tutorial tips for new users.

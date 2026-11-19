@@ -16,16 +16,16 @@
 			<AbsDimension x="32" y="32"/>
 		</Size>
 
-		<NormalTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_SaveLoad">
+		<NormalTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_SaveLoad">
 			<TexCoords left="0" right="0.4140625" top="0" bottom="0.3515625"/>
 		</NormalTexture>
-		<PushedTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_SaveLoad">
+		<PushedTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_SaveLoad">
 			<TexCoords left="0.4140625" right="0.828125" top="0" bottom="0.3515625"/>
 		</PushedTexture>
-		<DisabledTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_SaveLoad">
+		<DisabledTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_SaveLoad">
 			<TexCoords left="0" right="0.4140625" top="0.359375" bottom="0.7109375"/>
 		</DisabledTexture>
-		<HighlightTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_SaveLoad" alphaMode="ADD">
+		<HighlightTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_SaveLoad" alphaMode="ADD">
 			<TexCoords left="0.4140625" right="0.828125" top="0.3515625" bottom="0.703125"/>
 		</HighlightTexture>
 	</Button>
@@ -132,7 +132,7 @@
 		<Anchors>
 			<Anchor point="TOPLEFT"/>
 		</Anchors>
-		<Backdrop bgFile="Interface\AddOns\XPerl_RaidHelper\images\XPerl_FrameBack" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+		<Backdrop bgFile="Interface\AddOns\XPerlCompact_RaidHelper\Images\XPerl_FrameBack" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
 			<EdgeSize>
 				<AbsValue val="9"/>
 			</EdgeSize>
@@ -190,11 +190,11 @@
 								</Offset>
 							</Anchor>
 						</Anchors>
-						<NormalTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Pin">
+						<NormalTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Pin">
 							<TexCoords left="0" right="0.46875" top="0.5" bottom="0.453125"/>
 						</NormalTexture>
 
-						<PushedTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Pin">
+						<PushedTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Pin">
 							<TexCoords left="0" right="0.46875" top="0.5" bottom="0.953125"/>
 						</PushedTexture>
 
@@ -235,11 +235,11 @@
 						<Anchors>
 							<Anchor point="RIGHT" relativeTo="$parent_Pin" relativePoint="LEFT"/>
 						</Anchors>
-						<NormalTexture file="Interface\Addons\XPerl_RaidHelper\Images\XPerl_Bits">
+						<NormalTexture file="Interface\Addons\XPerlCompact_RaidHelper\Images\XPerl_Bits">
 							<TexCoords left="0.375" right="0.5" top="0.0" bottom="0.125"/>
 						</NormalTexture>
 
-						<PushedTexture file="Interface\Addons\XPerl_RaidHelper\Images\XPerl_Bits">
+						<PushedTexture file="Interface\Addons\XPerlCompact_RaidHelper\Images\XPerl_Bits">
 							<TexCoords left="0.375" right="0.5" top="0.125" bottom="0.25"/>
 						</PushedTexture>
 
@@ -429,16 +429,16 @@
 										</Offset>
 									</Anchor>
 								</Anchors>
-								<NormalTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Stop">
+								<NormalTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Stop">
 									<TexCoords left="0" right="0.4921875" top="0" bottom="0.4765625"/>
 								</NormalTexture>
-								<PushedTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Stop">
+								<PushedTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Stop">
 									<TexCoords left="0.5" right="0.9921875" top="0" bottom="0.4765625"/>
 								</PushedTexture>
-								<DisabledTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Stop">
+								<DisabledTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Stop">
 									<TexCoords left="0" right="0.4921875" top="0.5078125" bottom="0.984375"/>
 								</DisabledTexture>
-								<HighlightTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Stop" alphaMode="ADD">
+								<HighlightTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Stop" alphaMode="ADD">
 									<TexCoords left="0.5" right="0.9921875" top="0.5078125" bottom="0.984375"/>
 								</HighlightTexture>
 
@@ -535,16 +535,16 @@
 										</Offset>
 									</Anchor>
 								</Anchors>
-								<NormalTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Bin">
+								<NormalTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Bin">
 									<TexCoords left="0" right="0.5" top="0" bottom="0.5"/>
 								</NormalTexture>
-								<PushedTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Bin">
+								<PushedTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Bin">
 									<TexCoords left="0.5" right="1" top="0" bottom="0.5"/>
 								</PushedTexture>
-								<DisabledTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Bin">
+								<DisabledTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Bin">
 									<TexCoords left="0" right="0.5" top="0.5" bottom="1"/>
 								</DisabledTexture>
-								<HighlightTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Bin" alphaMode="ADD">
+								<HighlightTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Bin" alphaMode="ADD">
 									<TexCoords left="0.5" right="1" top="0.5" bottom="1"/>
 								</HighlightTexture>
 								<Scripts>

@@ -87,8 +87,8 @@
 				<Anchors>
 					<Anchor point="TOPLEFT"/>
 				</Anchors>
-				<!--Backdrop bgFile="Interface\AddOns\XPerl\images\XPerl_FrameBack" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true"-->
-				<Backdrop bgFile="Interface\AddOns\XPerl\images\XPerl_FrameBack" edgeFile="Interface\Addons\XPerl\Images\XPerl_ThinEdge" tile="true">
+				<!--Backdrop bgFile="Interface\AddOns\XPerlCompact\Images\XPerl_FrameBack" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true"-->
+				<Backdrop bgFile="Interface\AddOns\XPerlCompact\Images\XPerl_FrameBack" edgeFile="Interface\Addons\XPerlCompact\Images\XPerl_ThinEdge" tile="true">
 					<EdgeSize>
 						<AbsValue val="10"/>
 					</EdgeSize>
@@ -155,7 +155,7 @@
 						</Offset>
 					</Anchor>
 				</Anchors>
-				<Backdrop bgFile="Interface\AddOns\XPerl\images\XPerl_FrameBack" edgeFile="Interface\Addons\XPerl\Images\XPerl_ThinEdge" tile="true">
+				<Backdrop bgFile="Interface\AddOns\XPerlCompact\Images\XPerl_FrameBack" edgeFile="Interface\Addons\XPerlCompact\Images\XPerl_ThinEdge" tile="true">
 					<EdgeSize>
 						<AbsValue val="10"/>
 					</EdgeSize>
@@ -322,7 +322,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT" relativeTo="$parentTitle"/>
 				</Anchors>
-				<Backdrop bgFile="Interface\AddOns\XPerl\images\XPerl_FrameBack" edgeFile="Interface\Addons\XPerl\Images\XPerl_ThinEdge" tile="true">
+				<Backdrop bgFile="Interface\AddOns\XPerlCompact\Images\XPerl_FrameBack" edgeFile="Interface\Addons\XPerlCompact\Images\XPerl_ThinEdge" tile="true">
 					<EdgeSize>
 						<AbsValue val="10"/>
 					</EdgeSize>

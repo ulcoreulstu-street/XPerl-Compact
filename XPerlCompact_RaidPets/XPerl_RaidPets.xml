@@ -16,7 +16,7 @@
 
 		<Size><AbsDimension x="80" y="30"/></Size>
 
-		<Backdrop bgFile="Interface\AddOns\XPerl\images\XPerl_FrameBack" edgeFile="Interface\Addons\XPerl\Images\XPerl_ThinEdge" tile="true">
+		<Backdrop bgFile="Interface\AddOns\XPerlCompact\Images\XPerl_FrameBack" edgeFile="Interface\Addons\XPerlCompact\Images\XPerl_ThinEdge" tile="true">
 			<EdgeSize>
 				<AbsValue val="10"/>
 			</EdgeSize>

@@ -54,7 +54,7 @@
 
 	<Button name="XPerl_RaidMonitor_BarTemplate" inherits="SecureActionButtonTemplate" virtual="true">
 		<Size><AbsDimension x="80" y="12"/></Size>
-		<HighlightTexture file="Interface\Addons\XPerl\images\XPerl_Highlight" alphaMode="ADD">
+		<HighlightTexture file="Interface\Addons\XPerlCompact\Images\XPerl_Highlight" alphaMode="ADD">
 			<TexCoords left="0" right="1" top="0.5" bottom="1"/>
 		</HighlightTexture>
 		<Frames>
@@ -147,7 +147,7 @@
 		<Size>
 			<AbsDimension x="120" y="12"/>
 		</Size>
-		<HighlightTexture file="Interface\Addons\XPerl\images\XPerl_Highlight" alphaMode="ADD">
+		<HighlightTexture file="Interface\Addons\XPerlCompact\Images\XPerl_Highlight" alphaMode="ADD">
 			<TexCoords left="0" right="1" top="0.5" bottom="1"/>
 		</HighlightTexture>
 		<Frames>
@@ -176,7 +176,7 @@
 						</Anchors>
 						<Layers>
 							<Layer level="OVERLAY">
-								<Texture name="$parentSpark" file="Interface\Addons\XPerl\Images\XPerl_ArcaneBarSpark" alphaMode="ADD">
+								<Texture name="$parentSpark" file="Interface\Addons\XPerlCompact\Images\XPerl_ArcaneBarSpark" alphaMode="ADD">
 									<Size>
 										<AbsDimension x="8" y="16"/>
 									</Size>
@@ -206,7 +206,7 @@
 				</Frames>
 				<Layers>
 					<Layer level="OVERLAY">
-						<Texture name="$parentGrouped" file="Interface\Addons\XPerl_RaidHelper\Images\XPerl_Bits" hidden="true">
+						<Texture name="$parentGrouped" file="Interface\Addons\XPerlCompact_RaidHelper\Images\XPerl_Bits" hidden="true">
 							<Size><AbsDimension x="8" y="8"/></Size>
 							<Anchors>
 								<Anchor point="RIGHT">
@@ -260,7 +260,7 @@
 		<Anchors>
 			<Anchor point="TOPLEFT"/>
 		</Anchors>
-		<Backdrop bgFile="Interface\AddOns\XPerl_RaidHelper\images\XPerl_FrameBack" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+		<Backdrop bgFile="Interface\AddOns\XPerlCompact_RaidHelper\Images\XPerl_FrameBack" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
 			<EdgeSize>
 				<AbsValue val="9"/>
 			</EdgeSize>
@@ -327,11 +327,11 @@
 								</Offset>
 							</Anchor>
 						</Anchors>
-						<NormalTexture file="Interface\Addons\XPerl_RaidHelper\Images\XPerl_Pin">
+						<NormalTexture file="Interface\Addons\XPerlCompact_RaidHelper\Images\XPerl_Pin">
 							<TexCoords left="0" right="0.46875" top="0" bottom="0.453125"/>
 						</NormalTexture>
 
-						<PushedTexture file="Interface\Addons\XPerl_RaidHelper\Images\XPerl_Pin">
+						<PushedTexture file="Interface\Addons\XPerlCompact_RaidHelper\Images\XPerl_Pin">
 							<TexCoords left="0" right="0.46875" top="0.5" bottom="0.953125"/>
 						</PushedTexture>
 
@@ -380,15 +380,15 @@
 						<Anchors>
 							<Anchor point="RIGHT" relativeTo="$parentPin" relativePoint="LEFT"/>
 						</Anchors>
-						<NormalTexture file="Interface\Addons\XPerl_RaidHelper\Images\XPerl_Bits">
+						<NormalTexture file="Interface\Addons\XPerlCompact_RaidHelper\Images\XPerl_Bits">
 							<TexCoords left="0.625" right="0.75" top="0.0" bottom="0.125"/>
 						</NormalTexture>
 
-						<PushedTexture file="Interface\Addons\XPerl_RaidHelper\Images\XPerl_Bits">
+						<PushedTexture file="Interface\Addons\XPerlCompact_RaidHelper\Images\XPerl_Bits">
 							<TexCoords left="0.625" right="0.75" top="0.125" bottom="0.25"/>
 						</PushedTexture>
 
-						<DisabledTexture file="Interface\Addons\XPerl_RaidHelper\Images\XPerl_Bits">
+						<DisabledTexture file="Interface\Addons\XPerlCompact_RaidHelper\Images\XPerl_Bits">
 							<TexCoords left="0.625" right="0.75" top="0.25" bottom="0.375"/>
 						</DisabledTexture>
 
