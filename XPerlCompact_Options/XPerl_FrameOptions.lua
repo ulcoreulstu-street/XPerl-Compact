@@ -612,13 +612,15 @@ local function CopySelectedSettings()
 	XPerlDB = XPerl_CopyTable(CopyFrom.config)
 
 	if (XPerlConfigSavePerCharacter) then
-		if (not XPerlConfigNew[GetRealmName()]) then
-			XPerlConfigNew[GetRealmName()] = {}
+		local realm = GetRealmName()
+
+		if (not XPerlConfigNew[realm]) then
+			XPerlConfigNew[realm] = {}
 		end
 
-		XPerlConfigNew[GetRealmName()][UnitName("player")] = XPerlDB
+		XPerlConfigNew[realm][UnitName("player")] = XPerlDB
 	else
-		XPerlConfigNew[GetRealmName()].global = XPerlDB
+		XPerlConfigNew.global = XPerlDB
 	end
 
 	XPerl_GiveConfig()
