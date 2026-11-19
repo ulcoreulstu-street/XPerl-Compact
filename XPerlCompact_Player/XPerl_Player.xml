@@ -62,7 +62,7 @@
 		</Scripts>
 	</Button>
 
-	<Button name="XPerlCompact_Player" inherits="SecureUnitButtonTemplate" clampedToScreen="true" frameStrata="LOW" movable="true" parent="UIParent">
+	<Button name="XPerl_Player" inherits="SecureUnitButtonTemplate" clampedToScreen="true" frameStrata="LOW" movable="true" parent="UIParent">
 		<Size>
 			<AbsDimension x="220" y="60"/>
 		</Size>
