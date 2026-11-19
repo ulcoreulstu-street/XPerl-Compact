@@ -1874,7 +1874,7 @@
 	</Frame>
 
 	<!-- Options Frames -->
-	<Frame name="XPerlCompact_Options" inherits="XPerl_OptionsTemplate" parent="XPerl_OptionsAnchor" hidden="true">
+	<Frame name="XPerl_Options" inherits="XPerl_OptionsTemplate" parent="XPerl_OptionsAnchor" hidden="true">
 		<Scripts>
 			<OnEvent>
 				if (event == "PLAYER_REGEN_DISABLED") then
