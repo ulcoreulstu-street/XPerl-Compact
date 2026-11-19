@@ -346,6 +346,28 @@ local function startupCheckSettings(self,event)
 		end
 	end
 
+	-- XPerl Compact: migrate the legacy shared config once, then default to per-character mode.
+	if (not XPerlConfigNew._XPerlCompactPerCharacterMigration) then
+		if (not XPerlConfigSavePerCharacter) then
+			local realm = GetRealmName()
+			local realmConfig = XPerlConfigNew[realm]
+
+			if (not (realmConfig and realmConfig[playerName]) and XPerlConfigNew.global) then
+				if (not realmConfig) then
+					realmConfig = {}
+					XPerlConfigNew[realm] = realmConfig
+				end
+
+				realmConfig[playerName] = XPerl_CopyTable(XPerlConfigNew.global)
+			end
+		end
+
+		XPerlConfigSavePerCharacter = true
+		XPerlConfigNew._XPerlCompactPerCharacterMigration = true
+	elseif (XPerlConfigSavePerCharacter == nil) then
+		XPerlConfigSavePerCharacter = true
+	end
+
 	GiveConfig()
 
 	-- Variable checking only occurs for new install and version number change
