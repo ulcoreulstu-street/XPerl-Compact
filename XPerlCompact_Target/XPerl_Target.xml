@@ -426,7 +426,7 @@
 		</Frames>
 	</Button>
 
-	<Button name="XPerlCompact_Target" inherits="XPerl_TargetTemplate">
+	<Button name="XPerl_Target" inherits="XPerl_TargetTemplate">
 		<Anchors>
 			<Anchor point="TOPLEFT">
 				<Offset>
