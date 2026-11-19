@@ -1,7 +1,7 @@
 ## Interface: 30300
 ## Version: 1.0.0
-## Title: XPerl Compact |cffeda55fSirus|r by |cFFFF8080Ulcore@|r
-## Title-ruRU: XPerl Compact |cffeda55fSirus|r by |cFFFF8080Ulcore@|r
+## Title: XPerl Compact — Подсветка
+## Title-ruRU: XPerl Compact — Подсветка
 ## Title-zhCN: X-Perl |cffeda55f自定义Debuff高亮|r
 ## Title-zhTW: X-Perl |cffeda55f地區性狀態監視模組|r 由 |cFFFF8080Ulcore@|r 開發
 ## Notes: Custom highlights module allowing definition of frame by frame indicator of important debuffs.

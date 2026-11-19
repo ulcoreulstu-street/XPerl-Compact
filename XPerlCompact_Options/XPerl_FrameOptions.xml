@@ -71,7 +71,7 @@
 		<Anchors>
 			<Anchor point="CENTER"/>
 		</Anchors>
-		<Backdrop bgFile="Interface\Addons\XPerl_Options\Images\XPerl_FancyBack" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+		<Backdrop bgFile="Interface\Addons\XPerlCompact_Options\Images\XPerl_FancyBack" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
 			<EdgeSize>
 				<AbsValue val="16"/>
 			</EdgeSize>
@@ -247,16 +247,16 @@
 		<Size>
 			<AbsDimension x="32" y="32"/>
 		</Size>
-		<NormalTexture file="Interface\Addons\XPerl_Options\Images\LeftRightArrows">
+		<NormalTexture file="Interface\Addons\XPerlCompact_Options\Images\LeftRightArrows">
 			<TexCoords left="0" right="0.25" top="0" bottom="0.5"/>
 		</NormalTexture>
-		<PushedTexture file="Interface\Addons\XPerl_Options\Images\LeftRightArrows">
+		<PushedTexture file="Interface\Addons\XPerlCompact_Options\Images\LeftRightArrows">
 			<TexCoords left="0.25" right="0.5" top="0" bottom="0.5"/>
 		</PushedTexture>
-		<DisabledTexture file="Interface\Addons\XPerl_Options\Images\LeftRightArrows">
+		<DisabledTexture file="Interface\Addons\XPerlCompact_Options\Images\LeftRightArrows">
 			<TexCoords left="0.5" right="0.75" top="0" bottom="0.5"/>
 		</DisabledTexture>
-		<HighlightTexture file="Interface\Addons\XPerl_Options\Images\LeftRightArrows" alphaMode="ADD">
+		<HighlightTexture file="Interface\Addons\XPerlCompact_Options\Images\LeftRightArrows" alphaMode="ADD">
 			<TexCoords left="0.75" right="1" top="0" bottom="0.5"/>
 		</HighlightTexture>
 	</Button>
@@ -265,16 +265,16 @@
 		<Size>
 			<AbsDimension x="32" y="32"/>
 		</Size>
-		<NormalTexture file="Interface\Addons\XPerl_Options\Images\LeftRightArrows">
+		<NormalTexture file="Interface\Addons\XPerlCompact_Options\Images\LeftRightArrows">
 			<TexCoords left="0" right="0.25" top="0.5" bottom="1"/>
 		</NormalTexture>
-		<PushedTexture file="Interface\Addons\XPerl_Options\Images\LeftRightArrows">
+		<PushedTexture file="Interface\Addons\XPerlCompact_Options\Images\LeftRightArrows">
 			<TexCoords left="0.25" right="0.5" top="0.5" bottom="1"/>
 		</PushedTexture>
-		<DisabledTexture file="Interface\Addons\XPerl_Options\Images\LeftRightArrows">
+		<DisabledTexture file="Interface\Addons\XPerlCompact_Options\Images\LeftRightArrows">
 			<TexCoords left="0.5" right="0.75" top="0.5" bottom="1"/>
 		</DisabledTexture>
-		<HighlightTexture file="Interface\Addons\XPerl_Options\Images\LeftRightArrows" alphaMode="ADD">
+		<HighlightTexture file="Interface\Addons\XPerlCompact_Options\Images\LeftRightArrows" alphaMode="ADD">
 			<TexCoords left="0.75" right="1" top="0.5" bottom="1"/>
 		</HighlightTexture>
 	</Button>
@@ -490,7 +490,7 @@
 			</Layer>
 		</Layers>
 		<NormalTexture name="$parent_Colour" file="Interface\ChatFrame\ChatFrameColorSwatch"/>
-		<HighlightTexture file="Interface\Addons\XPerl\Images\XPerl_Highlight" alphaMode="ADD">
+		<HighlightTexture file="Interface\Addons\XPerlCompact\Images\XPerl_Highlight" alphaMode="ADD">
 			<TexCoords left="0" right="0.25" top="0" bottom="0.5"/>
 		</HighlightTexture>
 	</Button>
@@ -501,7 +501,7 @@
 		</Size>
 		<Layers>
 			<Layer level="BACKGROUND">
-				<Texture name="$parentEnabledLeft" file="Interface\Addons\XPerl_Options\Images\XPerl_Tabs" hidden="true">
+				<Texture name="$parentEnabledLeft" file="Interface\Addons\XPerlCompact_Options\Images\XPerl_Tabs" hidden="true">
 					<Anchors>
 						<Anchor point="TOPLEFT"/>
 						<Anchor point="BOTTOMRIGHT" relativePoint="BOTTOMLEFT">
@@ -512,7 +512,7 @@
 					</Anchors>
 					<TexCoords left="0" right="0.125" top="0" bottom="0.25"/>
 				</Texture>
-				<Texture name="$parentEnabledRight" file="Interface\Addons\XPerl_Options\Images\XPerl_Tabs" hidden="true">
+				<Texture name="$parentEnabledRight" file="Interface\Addons\XPerlCompact_Options\Images\XPerl_Tabs" hidden="true">
 					<Anchors>
 						<Anchor point="TOPRIGHT"/>
 						<Anchor point="BOTTOMLEFT" relativePoint="BOTTOMRIGHT">
@@ -523,14 +523,14 @@
 					</Anchors>
 					<TexCoords left="0.875" right="1" top="0" bottom="0.25"/>
 				</Texture>
-				<Texture name="$parentEnabledMiddle" file="Interface\Addons\XPerl_Options\Images\XPerl_Tabs" hidden="true">
+				<Texture name="$parentEnabledMiddle" file="Interface\Addons\XPerlCompact_Options\Images\XPerl_Tabs" hidden="true">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="$parentEnabledLeft" relativePoint="TOPRIGHT"/>
 						<Anchor point="BOTTOMRIGHT" relativeTo="$parentEnabledRight" relativePoint="BOTTOMLEFT"/>
 					</Anchors>
 					<TexCoords left="0.125" right="0.875" top="0" bottom="0.25"/>
 				</Texture>
-				<Texture name="$parentDisabledLeft" file="Interface\Addons\XPerl_Options\Images\XPerl_Tabs">
+				<Texture name="$parentDisabledLeft" file="Interface\Addons\XPerlCompact_Options\Images\XPerl_Tabs">
 					<Anchors>
 						<Anchor point="TOPLEFT">
 							<Offset>
@@ -545,7 +545,7 @@
 					</Anchors>
 					<TexCoords left="0" right="0.125" top="0.26" bottom="0.5"/>
 				</Texture>
-				<Texture name="$parentDisabledRight" file="Interface\Addons\XPerl_Options\Images\XPerl_Tabs">
+				<Texture name="$parentDisabledRight" file="Interface\Addons\XPerlCompact_Options\Images\XPerl_Tabs">
 					<Anchors>
 						<Anchor point="TOPRIGHT">
 							<Offset>
@@ -560,7 +560,7 @@
 					</Anchors>
 					<TexCoords left="0.875" right="1" top="0.26" bottom="0.5"/>
 				</Texture>
-				<Texture name="$parentDisabledMiddle" file="Interface\Addons\XPerl_Options\Images\XPerl_Tabs">
+				<Texture name="$parentDisabledMiddle" file="Interface\Addons\XPerlCompact_Options\Images\XPerl_Tabs">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="$parentDisabledLeft" relativePoint="TOPRIGHT"/>
 						<Anchor point="BOTTOMRIGHT" relativeTo="$parentDisabledRight" relativePoint="BOTTOMLEFT"/>
@@ -578,7 +578,7 @@
 		<NormalFont style="GameFontNormalSmall"/>
 		<HighlightFont style="GameFontHighlightSmall"/>
 		<DisabledFont style="GameFontDisableSmall"/>
-		<HighlightTexture name="$parentHighlightTexture" file="Interface\AddOns\XPerl_Options\images\XPerl_Tabs" alphaMode="ADD">
+		<HighlightTexture name="$parentHighlightTexture" file="Interface\AddOns\XPerlCompact_Options\Images\XPerl_Tabs" alphaMode="ADD">
 			<TexCoords left="0" right="1" top="0.75" bottom="1"/>
 			<Anchors>
 				<Anchor point="TOPLEFT">
@@ -1047,7 +1047,7 @@
 			</OnMouseWheel>
 		</Scripts>
 		<NormalTexture file="Interface\TargetingFrame\UI-StatusBar"/>
-		<HighlightTexture file="Interface\Addons\XPerl\Images\XPerl_Highlight" alphaMode="ADD">
+		<HighlightTexture file="Interface\Addons\XPerlCompact\Images\XPerl_Highlight" alphaMode="ADD">
 			<TexCoords left="0" right="1" top="0.5" bottom="1" />
 		</HighlightTexture>
 		<Layers>
@@ -1423,7 +1423,7 @@
 			</OnUpdate>
 		</Scripts>
 		<Size><AbsDimension x="150" y="67"/></Size>
-		<Backdrop bgFile="Interface\Addons\XPerl_Options\Images\XPerl_FancyBack" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+		<Backdrop bgFile="Interface\Addons\XPerlCompact_Options\Images\XPerl_FancyBack" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
 			<EdgeSize>
 				<AbsValue val="16"/>
 			</EdgeSize>
@@ -2897,16 +2897,16 @@
 								</Offset>
 							</Anchor>
 						</Anchors>
-						<NormalTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Bin">
+						<NormalTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Bin">
 							<TexCoords left="0" right="0.5" top="0" bottom="0.5"/>
 						</NormalTexture>
-						<PushedTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Bin">
+						<PushedTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Bin">
 							<TexCoords left="0.5" right="1" top="0" bottom="0.5"/>
 						</PushedTexture>
-						<DisabledTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Bin">
+						<DisabledTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Bin">
 							<TexCoords left="0" right="0.5" top="0.5" bottom="1"/>
 						</DisabledTexture>
-						<HighlightTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Bin" alphaMode="ADD">
+						<HighlightTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Bin" alphaMode="ADD">
 							<TexCoords left="0.5" right="1" top="0.5" bottom="1"/>
 						</HighlightTexture>
 						<Scripts>
@@ -3298,7 +3298,7 @@
 								XPerl_Options_TextureSelect:Show()
 							</OnClick>
 						</Scripts>
-						<HighlightTexture file="Interface\Addons\XPerl\Images\XPerl_Highlight" alphaMode="ADD">
+						<HighlightTexture file="Interface\Addons\XPerlCompact\Images\XPerl_Highlight" alphaMode="ADD">
 							<TexCoords left="0" right="1" top="0.5" bottom="1" />
 						</HighlightTexture>
 					</Button>
@@ -12076,16 +12076,16 @@
 														<Offset><AbsDimension x="-4" y="-4"/></Offset>
 													</Anchor>
 												</Anchors>
-												<NormalTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Bin">
+												<NormalTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Bin">
 													<TexCoords left="0" right="0.5" top="0" bottom="0.5"/>
 												</NormalTexture>
-												<PushedTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Bin">
+												<PushedTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Bin">
 													<TexCoords left="0.5" right="1" top="0" bottom="0.5"/>
 												</PushedTexture>
-												<DisabledTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Bin">
+												<DisabledTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Bin">
 													<TexCoords left="0" right="0.5" top="0.5" bottom="1"/>
 												</DisabledTexture>
-												<HighlightTexture file="Interface\Addons\XPerl_RaidAdmin\Images\XPerl_Bin" alphaMode="ADD">
+												<HighlightTexture file="Interface\Addons\XPerlCompact_RaidAdmin\Images\XPerl_Bin" alphaMode="ADD">
 													<TexCoords left="0.5" right="1" top="0.5" bottom="1"/>
 												</HighlightTexture>
 												<Scripts>
@@ -12966,7 +12966,7 @@
 													</Layer>
 												</Layers>
 												<NormalTexture file="Interface\TargetingFrame\UI-StatusBar"/>
-												<HighlightTexture file="Interface\Addons\XPerl\Images\XPerl_Highlight" alphaMode="ADD">
+												<HighlightTexture file="Interface\Addons\XPerlCompact\Images\XPerl_Highlight" alphaMode="ADD">
 													<TexCoords left="0" right="1" top="0.5" bottom="1"/>
 												</HighlightTexture>
 												<Scripts>
@@ -13151,7 +13151,7 @@
 													</Layer>
 												</Layers>
 												<NormalTexture file="Interface\TargetingFrame\UI-StatusBar"/>
-												<HighlightTexture file="Interface\Addons\XPerl\Images\XPerl_Highlight" alphaMode="ADD">
+												<HighlightTexture file="Interface\Addons\XPerlCompact\Images\XPerl_Highlight" alphaMode="ADD">
 													<TexCoords left="0" right="1" top="0.5" bottom="1"/>
 												</HighlightTexture>
 												<Scripts>

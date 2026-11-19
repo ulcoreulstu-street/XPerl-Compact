@@ -4452,7 +4452,7 @@ function XPerl_Load_LQHLHC()
 								end
 							end
 
-							if (XPerl_Player_UpdateHealth and guid == playerGUID) then
+							if (XPerl_Player and XPerl_Player_UpdateHealth and guid == playerGUID) then
 								XPerl_Player_UpdateHealth(XPerl_Player)
 							elseif (XPerl_Player_Pet_UpdateHealth and guid == petGUID) then
 								XPerl_Player_Pet_UpdateHealth(XPerl_Player)
@@ -4518,7 +4518,7 @@ function XPerl_Load_LQHLHC()
 								end
 							end
 
-							if (XPerl_Player_UpdateHealth and guid == playerGUID) then
+							if (XPerl_Player and XPerl_Player_UpdateHealth and guid == playerGUID) then
 								XPerl_Player_UpdateHealth(XPerl_Player)
 							elseif (XPerl_Player_Pet_UpdateHealth and guid == petGUID) then
 								XPerl_Player_Pet_UpdateHealth(XPerl_Player)

@@ -68,7 +68,7 @@
 	</Frame>
 
 	<Frame name="XPerl_BorderStyleTemplate" virtual="true">
-		<Backdrop bgFile="Interface\Addons\XPerl\Images\XPerl_FrameBack" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+		<Backdrop bgFile="Interface\Addons\XPerlCompact\Images\XPerl_FrameBack" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
 			<EdgeSize>
 				<AbsValue val="16"/>
 			</EdgeSize>
@@ -411,7 +411,7 @@
 		</Scripts>
 		<Layers>
 			<Layer level="OVERLAY">
-				<Texture name="$parenttex" hidden="true" file="Interface\Addons\XPerl\images\XPerl_Highlight" alphaMode="ADD">
+				<Texture name="$parenttex" hidden="true" file="Interface\Addons\XPerlCompact\Images\XPerl_Highlight" alphaMode="ADD">
 					<TexCoords left="0.25" right="0.75" top="0" bottom="0.5"/>
 				</Texture>
 			</Layer>
@@ -426,12 +426,12 @@
 		</Scripts>
 		<Layers>
 			<Layer level="BACKGROUND">
-				<Texture name="$parentbackground" file="Interface\Addons\XPerl\Images\GaugeCircle" setAllPoints="true" blendMode="ADD">
+				<Texture name="$parentbackground" file="Interface\Addons\XPerlCompact\Images\GaugeCircle" setAllPoints="true" blendMode="ADD">
 					<Color r="1" g="1" b="1" a="0.5"/>
 				</Texture>
 			</Layer>
 			<Layer level="ARTWORK">
-				<Texture name="$parentneedle" file="Interface\Addons\XPerl\Images\GaugeCircleNeedle" setAllPoints="true">
+				<Texture name="$parentneedle" file="Interface\Addons\XPerlCompact\Images\GaugeCircleNeedle" setAllPoints="true">
 					<Color r="1" g="1" b="1" a="0.8"/>
 				</Texture>
 				<FontString name="$parenttext" inherits="GameFontNormalSmall" text="0">
@@ -456,7 +456,7 @@
 		</Scripts>
 		<Layers>
 			<Layer level="ARTWORK">
-				<Texture name="$parentneedle" file="Interface\Addons\XPerl\Images\GaugeBarNeedle">
+				<Texture name="$parentneedle" file="Interface\Addons\XPerlCompact\Images\GaugeBarNeedle">
 					<Size>
 						<AbsDimension x="20" y="20"/>
 					</Size>

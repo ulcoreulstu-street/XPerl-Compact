@@ -7,7 +7,7 @@ C:\Projects\WoW\Bin\Interface\FrameXML\UI.xsd">
 		<BarTexture name="$parenttex" file="Interface\TargetingFrame\UI-StatusBar"/>
 		<Layers>
 			<Layer level="OVERLAY">
-				<Texture name="$parentbarSpark" file="Interface\Addons\XPerl\Images\XPerl_ArcaneBarSpark" hidden="true" alphaMode="ADD">
+				<Texture name="$parentbarSpark" file="Interface\Addons\XPerlCompact\Images\XPerl_ArcaneBarSpark" hidden="true" alphaMode="ADD">
 					<Size>
 						<AbsDimension x="28" y="56"/>
 					</Size>
@@ -57,7 +57,7 @@ C:\Projects\WoW\Bin\Interface\FrameXML\UI.xsd">
 				</Anchors>
 				<Layers>
 					<Layer level="BACKGROUND">
-						<Texture name="$parenttex" file="Interface\Addons\XPerl\Images\XPerl_ArcaneBarFlash" setAllPoints="true" alphaMode="ADD"/>
+						<Texture name="$parenttex" file="Interface\Addons\XPerlCompact\Images\XPerl_ArcaneBarFlash" setAllPoints="true" alphaMode="ADD"/>
 					</Layer>
 				</Layers>
 			</Frame>

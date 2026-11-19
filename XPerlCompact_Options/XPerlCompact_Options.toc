@@ -1,7 +1,7 @@
 ## Interface: 30300
 ## Version: 1.0.0
-## Title: XPerl Compact |cffeda55fSirus|r by |cFFFF8080Ulcore@|r
-## Title-ruRU: XPerl Compact |cffeda55fSirus|r by |cFFFF8080Ulcore@|r
+## Title: XPerl Compact — Настройки
+## Title-ruRU: XPerl Compact — Настройки
 ## Title-zhCN: X-Perl |cffeda55f选项|r |cFF40FF40(LoadOnDemand)|r
 ## Title-zhTW: X-Perl |cffeda55f功能設定|r 由 |cFFFF8080Ulcore@|r 開發 |cFF40FF40(隨機載入)|r
 ## Notes: X-Perl Options GUI
