@@ -5461,7 +5461,7 @@
 								</Anchors>
 								<Scripts>
 									<OnLoad>
-										self:SetMinMaxValues(4, 80)
+										self:SetMinMaxValues(4, 40)
 										self:SetValueStep(1)
 										XPerl_SliderSetup(self)
 										XPerl_OptionsSetMyText(self, "XPERL_CONF_PLAYER_MAXBUFFS")
@@ -5582,7 +5582,7 @@
 										XPerl_OptionsSetMyText(self, "XPERL_CONF_PLAYER_BUFF_ROWS")
 									</OnLoad>
 									<OnShow>
-										self:SetValue(XPerlDB.player.buffs.rows or 2)
+										self:SetValue(XPerlDB.player.buffs.rows or 5)
 									</OnShow>
 									<OnValueChanged>
 										if (XPerlDB.player.buffs.rows ~= value) then
