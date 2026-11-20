@@ -97,7 +97,7 @@ local function UpdateBuffsTimeLeft(self)
 			CheckOneBuff(self.buffFrame.tempEnchant[2], offHandExpiration / 1000)
 		end
 
-		for i = 1,40 do
+		for i = 1, (pconf.buffs.count or 40) do
 			local button = self.buffFrame.buff[i]
 			if (button) then
 				local name, rank, buff, count, _, duration, endTime, myCast = UnitBuff(self.partyid, i)
