@@ -1667,7 +1667,7 @@ function XPerl_Options_ImportOldConfig(old)
 				cooldown	= Convert(old.PlayerBuffsCooldown),
 				flash		= Convert(old.PlayerBuffsFlash),
 				wrap		= 1,			-- 2.3.5
-				rows		= 2,			-- 2.3.5
+				rows		= 5,			-- beta: test extended player aura layout
 			},
 			debuffs = {
 				enable		= Convert(old.PlayerBuffs),
@@ -2482,7 +2482,7 @@ local function XPerl_Player_ConfigDefault(default)
 --			above		= nil,
 			size		= 25,
 			wrap		= 1,			-- 2.3.5
-			rows		= 2,			-- 2.3.5
+			rows		= 5,			-- beta: test extended player aura layout
 			hideBlizzard	= 1,
 			count		= 40,
 			cooldown	= 1,
