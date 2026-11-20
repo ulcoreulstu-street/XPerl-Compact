@@ -5461,7 +5461,7 @@
 								</Anchors>
 								<Scripts>
 									<OnLoad>
-										self:SetMinMaxValues(4, 40)
+										self:SetMinMaxValues(4, 80)
 										self:SetValueStep(1)
 										XPerl_SliderSetup(self)
 										XPerl_OptionsSetMyText(self, "XPERL_CONF_PLAYER_MAXBUFFS")
