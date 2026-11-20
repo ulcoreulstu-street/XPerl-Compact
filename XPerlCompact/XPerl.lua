@@ -3148,7 +3148,7 @@ function XPerl_Unit_UpdateBuffs(self, maxBuffs, maxDebuffs, castableOnly, curabl
 					end
 				end
 			end
-			for buffnum = lastIcon + 1,40 do
+			for buffnum = lastIcon + 1,80 do
 				local button = self.buffFrame.buff and self.buffFrame.buff[buffnum]
 				if (button) then
 					button.expireTime = nil
@@ -3237,7 +3237,7 @@ function XPerl_Unit_UpdateBuffs(self, maxBuffs, maxDebuffs, castableOnly, curabl
 					end
 				end
 			end
-			for buffnum = lastIcon + 1,40 do
+			for buffnum = lastIcon + 1,80 do
 				local button = self.buffFrame.debuff and self.buffFrame.debuff[buffnum]
 				if (button) then
 					button.expireTime = nil
@@ -3268,7 +3268,7 @@ function XPerl_SetBuffSize(self)
 	local sizeDebuff = (self.conf.debuffs and self.conf.debuffs.size) or (sizeBuff * (1 + self.buffSetup.debuffSizeMod))
 
 	local buff
-	for i = 1,40 do
+	for i = 1,80 do
 		buff = self.buffFrame.buff and self.buffFrame.buff[i]
 		if (buff) then
 			buff:SetScale(sizeBuff / 32)
